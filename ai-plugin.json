@@ -1,0 +1,18 @@
+{
+	"schema_version": "v1",
+	"name_for_human": "NBA Stats",
+	"name_for_model": "NBAstats",
+	"description_for_human": "Plugin for checking out up to date NBA stats.",
+	"description_for_model": "Plugin for checking out up to date NBA stats. Make sure to use specific names, eg: Stephen Curry vs Steph Curry. Seasons are also in the format YYYY-YY, ex: 2022-23",
+	"auth": {
+		"type": "none"
+	},
+	"api": {
+		"type": "openapi",
+		"url": "https://chatgpt-nba-plugin-arjunsahlot.koyeb.app/openapi.json",
+		"is_user_authenticated": false
+	},
+	"logo_url": "https://chatgpt-nba-plugin-arjunsahlot.koyeb.app/icon.jpg",
+	"contact_email": "iarjun.sahlot@gmail.com",
+	"legal_info_url": "https://chatgpt-nba-plugin-arjunsahlot.koyeb.app/legal.md"
+}
